@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  background: #f2f2f2;
+}
+
+/* If window is smaller than 700px */
+@media only screen and (min-width: 700px) {
+  main {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-container {
+    width: 62rem;
+    height: 34rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 1rem;
+  }
+  article {
+    height: 100%;
+    padding: 1.5rem;
+  }
+  .info {
+    padding: 0 2.1rem;
+    height: 60%;
+    width: 100%;
+  }
+  .info p {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+  }
+  .info h1 {
+    color: #f2f2f2;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  .button {
+    margin: 0 2rem;
+  }
+  .button :hover {
+    color: deepskyblue;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+  button {
+    font-family: "Lexend Deca", sans-serif;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border-style: none;
+  }
+  .container-1 {
+    background-color: #e38826;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border-radius: 0.8rem 0 0 0.8rem;
+    min-width: 20rem;
+  }
+  .container-1 button {
+    color: #e38826;
+  }
+  .container-2 {
+    background-color: #006970;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    min-width: 20rem;
+  }
+  .container-2 button {
+    color: #006970;
+  }
+  .container-3 {
+    background-color: #004241;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border-radius: 0 0.8rem 0.8rem 0;
+    min-width: 20rem;
+  }
+  .container-3 button {
+    color: #004241;
+  }
+}
+
+/* If window is smaller than 700px */
+@media only screen and (max-width: 700px) {
+  main {
+    height: 80vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-container {
+    width: 62rem;
+    height: 34rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem;
+  }
+  article {
+    height: 100%;
+    padding: 1rem;
+  }
+  .info {
+    padding: 0 2.1rem;
+    height: 50%;
+    width: 100%;
+  }
+  .info p {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .info h1 {
+    color: #f2f2f2;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 0;
+    margin: 3rem 0;
+  }
+  .button {
+    margin: 0 2rem;
+  }
+  .button :hover {
+    color: deepskyblue;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+  }
+  button {
+    font-family: "Lexend Deca", sans-serif;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border-style: none;
+  }
+  .container-1 {
+    background-color: #e38826;
+    border-radius: 0.8rem 0.8rem 0 0;
+    min-width: 20rem;
+    padding: 1.5rem 0;
+  }
+  .container-1 button {
+    color: #e38826;
+  }
+  .container-2 {
+    background-color: #006970;
+    width: 100%;
+    min-width: 20rem;
+    padding: 1.5rem 0;
+  }
+  .container-2 button {
+    color: #006970;
+  }
+  .container-3 {
+    background-color: #004241;
+    border-radius: 0 0 0.8rem 0.8rem;
+    min-width: 20rem;
+    padding: 1.5rem 0;
+  }
+  .container-3 button {
+    color: #004241;
+  }
+}
+/*# sourceMappingURL=app.css.map */
